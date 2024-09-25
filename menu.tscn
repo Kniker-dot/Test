@@ -37,6 +37,10 @@ layout_mode = 2
 text = "Quit
 "
 
+[node name="Test name" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "exit"
+
 [connection signal="pressed" from="MarginContainer/VBoxContainer/play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/options" to="." method="_on_options_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/quit" to="." method="_on_quit_pressed"]
